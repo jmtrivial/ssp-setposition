@@ -1,0 +1,34 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-ssp-setposition {
+	display: flex;
+}
+
+.wp-block-create-block-ssp-setposition div {
+	width: fit-content;
+	margin-left: auto;
+	background: #f8f8f8;
+	border-radius: 0.3em;
+	padding-left: 0.5em;
+	font-family: 'Poppins', sans-serif;
+	overflow: hidden;
+	font-size: 90%;
+}
+
+.wp-block-create-block-ssp-setposition .components-button {
+	background: #eee;
+	margin-left: 0.4em;
+	border: 1px solid #eee;
+	font-size: inherit;
+	height: 2.2em;
+}
+
+.wp-block-create-block-ssp-setposition .components-button:hover {
+	background: #ddd;
+	cursor: pointer;
+}

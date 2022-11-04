@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/ssp-setposition",
+  "version": "0.1.0",
+  "title": "SSP Setposition",
+  "category": "widgets",
+  "icon": "embed-audio",
+  "description": "A block to set position in a Seriously Simple Podcast Player.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "ssp-setposition",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "script": "file:./script.js",
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": ""
+    },
+    "minute": {
+      "type": "integer",
+      "default": 0
+    },
+    "second": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
