@@ -27,7 +27,7 @@ export default function save({ attributes }) {
 
 	return (
 		<div { ...blockProps }>
-			<div>{ attributes.name } <button onclick={ call } class='components-button' type='button'>{ attributesminute }:{ attributessecond } ▸</button></div>
+			<div>{ attributes.name } <button onclick={ call } class='components-button' type='button'>à { attributesminute }:{ attributessecond } ▸</button></div>
 		</div>
 	);
 }

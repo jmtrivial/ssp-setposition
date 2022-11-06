@@ -50,7 +50,7 @@ export default function Edit(props) {
 
 	return (
 		<div { ...blockProps }>
-			<div>{attributes.name} <button class='components-button' type='button'>{ attributesminute }:{attributessecond} ▸</button></div>
+			<div>{attributes.name} <button class='components-button' type='button'>à { attributesminute }:{attributessecond} ▸</button></div>
 		<InspectorControls>
 			<TextControl
                 label='Nom de la position'
