@@ -2,6 +2,8 @@
 
 A Gutenberg/Wordpress block to create a bookmark link for [Seriously Simple Podcasting](https://fr.wordpress.org/plugins/seriously-simple-podcasting/) Player.
 
+License: AGPLv3
+
 ## Usage
 
 After installing this extension, you can add new **SSP SetPosition** blocks in the body of a podcast. Each block have a name, and a minute and second parameters.
